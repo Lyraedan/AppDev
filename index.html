@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>App dev - Covid map</title>
+
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css" rel="stylesheet" />
+
+        <style>
+            #map {
+                width: 90vw;
+                height: 90vh;
+            }
+        </style>
+    </head>
+    <body>
+        <p>By Luke Rapkin : Covid stats Updated daily - Hover over countries to see their stats. - Stats are total since 22nd January 2020 to the last 24 hours</p>
+        <div id="map"></div>
+        <div id="dashboard">
+            <p id="stats"></p>
+        </div>
+        <script type="module" src="app.js"></script>        
+    </body>
+</html>
